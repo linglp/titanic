@@ -26,6 +26,8 @@ Goal: building a models to predict if a passenger can survive.
 
 2) I also spent some time experimenting using drop out layers. Adding drop out layers could improve the testing accuracy and reduce overfitting. 
 
-3) I then tried to build a logisitic regression function to predict if a passenger can survive and evaluated the model by using a confusion matrix. We could see that 34 people were wrongly classified as "not survived" while 22 people were wrongly ckassified as "survived". 
+3) I then tried to build a logisitic regression function to predict if a passenger can survive and evaluated the model by using a confusion matrix. We could see that 34 people were wrongly classified as "not survived" while 22 people were wrongly classified as "survived". 
 
-4) Next, I tried to build a random forest model. The accuracy rate of random forest initially was 0.81, and after hypter parameter tunning, the testing score became 0.83 and the training score became 0.88. 
+4) Next, I tried to build a random forest model. The accuracy rate of random forest initially was 0.81, and after hypter parameter tunning, the testing score became 0.87 and the training score became 0.83. 
+
+Note: To evaluate my machine learning models, I also used separation plots provided by my mentor. From the separation plot, I could compare random forest model and logistic model. In both model, our false positive rate is lower than false negative rate. In addition, random forest model has lower false positive rate than logistic model.
